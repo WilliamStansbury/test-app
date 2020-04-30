@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/test-app/static/css/main.f070a0d7.chunk.css",
+    "main.js": "/test-app/static/js/main.52172e16.chunk.js",
+    "main.js.map": "/test-app/static/js/main.52172e16.chunk.js.map",
+    "runtime-main.js": "/test-app/static/js/runtime-main.39e027db.js",
+    "runtime-main.js.map": "/test-app/static/js/runtime-main.39e027db.js.map",
+    "static/js/2.a3dfc74a.chunk.js": "/test-app/static/js/2.a3dfc74a.chunk.js",
+    "static/js/2.a3dfc74a.chunk.js.map": "/test-app/static/js/2.a3dfc74a.chunk.js.map",
+    "index.html": "/test-app/index.html",
+    "precache-manifest.8c54e2f21ae926c0568ad5f8a7d10434.js": "/test-app/precache-manifest.8c54e2f21ae926c0568ad5f8a7d10434.js",
+    "service-worker.js": "/test-app/service-worker.js",
+    "static/css/main.f070a0d7.chunk.css.map": "/test-app/static/css/main.f070a0d7.chunk.css.map",
+    "static/js/2.a3dfc74a.chunk.js.LICENSE.txt": "/test-app/static/js/2.a3dfc74a.chunk.js.LICENSE.txt",
+    "static/media/NotreDame2.jpg": "/test-app/static/media/NotreDame2.9f668333.jpg",
+    "static/media/PinkDress2.jpg": "/test-app/static/media/PinkDress2.7f723504.jpg",
+    "static/media/github2.png": "/test-app/static/media/github2.0ba2aa20.png",
+    "static/media/kiev2.jpg": "/test-app/static/media/kiev2.036e4820.jpg",
+    "static/media/londoneye.JPG": "/test-app/static/media/londoneye.be4e3bfe.JPG",
+    "static/media/londoneye2.jpg": "/test-app/static/media/londoneye2.4ec82bbc.jpg",
+    "static/media/train2.jpg": "/test-app/static/media/train2.a9048325.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39e027db.js",
+    "static/js/2.a3dfc74a.chunk.js",
+    "static/css/main.f070a0d7.chunk.css",
+    "static/js/main.52172e16.chunk.js"
+  ]
+}
