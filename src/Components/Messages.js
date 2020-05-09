@@ -108,7 +108,7 @@ export class Messages extends Component {
 	  		console.log(this.state.messageValue.length)
 	  		alert('Message too short');
 	  	}
-	  	else if (this.state.messageValue.length > 500) {
+	  	else if (this.state.messageValue.length > 100) {
 	  		console.log("message too long")
 	  		alert('Message too long');
 	  	} else {
