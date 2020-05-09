@@ -2,19 +2,24 @@
   "name": "test-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://williamstansbury.github.io/test-app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "firebase": "^7.14.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-scroll-up-button": "^1.6.4",
+    "react-switch": "^5.0.1",
     "simple-react-lightbox": "^2.7.3-2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

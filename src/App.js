@@ -4,6 +4,7 @@ import './App.css'
 import Body from './Components/Body'
 import TabList from './Components/TabList'
 import SimpleReactLightbox from "simple-react-lightbox";
+const firebase = require('firebase');
 
 export class App extends Component {
   constructor() {
@@ -35,6 +36,10 @@ export class App extends Component {
     {
       id: 4,
       title: 'Links'
+    },
+    {
+      id: 5,
+      title: 'Messages'
     }
     ]
     return (

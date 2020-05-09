@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.column {
+  float: left;
+  width: 50%;
+  overflow: auto;
+}
+
+.submissionSide {
+  float: left;
+  width: 50%;
+  /*overflow:hidden;*/
+}
+
+.existingMessages {
+	float: left;
+  width: 50%;
+  overflow: auto;
+}
