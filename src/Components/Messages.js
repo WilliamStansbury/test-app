@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ScrollUpButton from "react-scroll-up-button";
 import config from './config.js'
 const firebase = require('firebase');
+const axios = require('axios');
 
 const sample = ["hi", "hello", "how are you"];
 var notGonnaWork;
@@ -25,7 +26,7 @@ export class Messages extends Component {
 		this.handleChangeMessage = this.handleChangeMessage.bind(this);
 		this.handleChangeEmail = this.handleChangeEmail.bind(this);
 		this.handleInputChange = this.handleInputChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    	this.handleSubmit = this.handleSubmit.bind(this);
 	}
 	componentDidMount(){
 		firebase.initializeApp(config)
@@ -122,6 +123,8 @@ export class Messages extends Component {
 	  	}
 	  	event.preventDefault();
 	  	this.setState({shouldUpdate: !this.state.shouldUpdate})
+
+	  	
 	  }
 
 	render() {
