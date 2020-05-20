@@ -62,7 +62,7 @@ export class Movies extends Component {
 	render() {
 		var counter = 1;
 		movieIDs.forEach(element => 
-			axios.get("http://www.omdbapi.com/?apikey=71e07b98&i=" + element).then(function(response) {
+			axios.get("https://www.omdbapi.com/?apikey=71e07b98&i=" + element).then(function(response) {
 	  		console.log(response);
 	  		 var img = new Image();
 	  		 var url = response.data.Poster;
