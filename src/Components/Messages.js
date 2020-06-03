@@ -19,8 +19,6 @@ export class Messages extends Component {
 		dateValue: "",
 		messageVisisble: false }
 
-
-
 		this.handleChangeName = this.handleChangeName.bind(this);
 		this.handleChangeBio = this.handleChangeBio.bind(this);
 		this.handleChangeMessage = this.handleChangeMessage.bind(this);
@@ -114,12 +112,9 @@ export class Messages extends Component {
 	  		alert('Message too long');
 	  	} else {
 	  		
-				firebase.database().ref('data').push().set(jsonBody)
+			firebase.database().ref('data').push().set(jsonBody)
 
 		    alert('Message Submitted!');
-		    
-
-		    
 	  	}
 	  	event.preventDefault();
 	  	this.setState({shouldUpdate: !this.state.shouldUpdate})

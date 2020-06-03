@@ -35,6 +35,11 @@ code {
   flex-wrap: wrap;
 }
 
+#innerArray {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .image {
   opacity: 1;
   /*display: block;*/
