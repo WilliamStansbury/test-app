@@ -6,6 +6,7 @@ import Links from './Links'
 import Messages from './Messages'
 import Movies from './Movies'
 import AddMovie from './AddMovie'
+import Graph from './Graph'
 
 export class Body extends Component {
 	displayContent = () => {
@@ -24,8 +25,10 @@ export class Body extends Component {
 		else if (activeTab == 6){
 			return <Movies/>
 		}
-		else {
+		else if (activeTab == 7){
 			return <AddMovie/>
+		} else {
+			return <Graph/>
 		}
 	}
 	render() {
